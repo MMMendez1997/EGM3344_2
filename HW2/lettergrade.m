@@ -1,4 +1,4 @@
-function grade = lettergrade(score)
+function grade = lettergrade(score) %input score, output grade in letter form
 if score > 100      %Check if value is between 0 and 100
     error('Please enter a value between 0 and 100.')
 elseif score >= 90  %A score
